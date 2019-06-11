@@ -1,6 +1,7 @@
-FROM debian:sid
+FROM debian:buster
 
-RUN apt update && apt install -y python3-django python3-pip npm libmysqlclient-dev && apt clean
+RUN apt update && apt install -y python3-django python3-pip npm libmariadb-dev-compat libmariadb-dev && apt clean
+#RUN apt update && apt install -y python3-django python3-pip npm libmysqlclient-dev && apt clean
 
 WORKDIR /app
 

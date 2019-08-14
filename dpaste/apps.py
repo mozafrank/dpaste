@@ -216,7 +216,7 @@ class dpasteAppConfig(AppConfig):
             ('console', 'Console/Bash Session'),
             # ('control', 'Debian Control file'),
             # ('coq', 'Coq'),
-            # ('cpp', 'C++'),
+            ('cpp', 'C++'),
             # ('cpp-objdump', 'cpp-objdump'),
             # ('cpsa', 'CPSA'),
             # ('cr', 'Crystal'),
